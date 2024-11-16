@@ -1,0 +1,91 @@
+// function power(a, b) {
+//     var result = 1;
+//     for (var i = 0; i < b; i++) {
+//         result = a;
+//     }
+//     return result;
+// }
+// var result = power(add , base)
+// var add = "1"
+// var base ="2"
+// console.log (result)
+// var year = +prompt("Enter any year ")
+// function LeapYear(year) {
+//     if (year / 4 === Math.floor(year / 4) && year / 100 !== Math.floor(year / 100)) {
+//         console.log(year + " is a leap year.");
+//     } else if (year / 400 === Math.floor(year / 400)) {
+//         console.log(year + " is a leap year.");
+//     } else {
+//         console.log(year + " is not a leap year.");
+//     }
+// }
+// LeapYear(year);
+// function triarea(a,b,c){
+//     var a = (a + b + c )/ 2
+//     console.log(Math.pow(s * (s - a) * (s - b) * (s - c), 1/2));
+// }
+// triarea(3,5,6)
+// function calculatePercentage(marks1, marks2, marks3) {
+//     console.log((marks1 + marks2 + marks3) / 3);
+//   }
+  
+//   function mainFunction() {
+//     var marks1 = parseInt(prompt("Enter marks in subject 1:"));
+//     var marks2 = parseInt(prompt("Enter marks in subject 2:"));
+//     var marks3 = parseInt(prompt("Enter marks in subject 3:"));
+  
+//     calculateAverage(marks1, marks2, marks3);
+//     calculatePercentage(marks1, marks2, marks3);
+//   }
+  
+//   mainFunction();
+// function removeVowels(sentence) {
+//     var vowels = ['a', 'e', 'i', 'o', 'u'];
+//     var result = '';
+  
+//     for (var i = 0; i < sentence.length; i++) {
+//       if (!vowels.includes(sentence[i].toLowerCase())) {
+//         result += sentence[i];
+//       }
+//     }
+  
+//     console.log(result);
+//   }
+  
+//   // Example usage:
+//   var sentence = "Pleases read this application and give me gratuity";
+//   removeVowels(sentence);
+// function convertKmToMeters(km) {
+//     console.log(km * 1000);
+//   }
+  
+//   function convertKmToFeet(km) {
+//     console.log(km * 3280.84);
+//   }
+  
+//   function convertKmToInches(km) {
+//     console.log(km * 39370.1);
+//   }
+  
+//   function convertKmToCentimeters(km) {
+//     console.log(km * 100000);
+//   }
+  
+//   // Example usage:
+//   var distanceInKm = 10;
+//   convertKmToMeters(distanceInKm);
+//   convertKmToFeet(distanceInKm);
+//   convertKmToInches(distanceInKm);
+//   convertKmToCentimeters(distanceInKm);
+// function onClick(){
+//     alert("You clicked this button")
+// }
+function changeImage() {
+    var image = document.getElementById("img1");
+    image.src = "https://i.dailymail.co.uk/1s/2024/07/01/21/86803169-13589675-image-a-27_1719864052563.jpg";
+  }
+  
+  function changeImage2() {
+    var image = document.getElementById("img1");
+    image.src = "https://media.gettyimages.com/id/147227902/photo/donetsk-ukraine-cristiano-ronaldo-of-portugal-prepares-to-take-a-free-kick-during-the-uefa.jpg?s=612x612&w=gi&k=20&c=H-cCSwXMWzlFRFrrS7KvbEh7-Q2BfDLBi6IxTkA4tQA="; // Use the original image source from your HTML
+  }
