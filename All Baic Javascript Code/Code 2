@@ -1,0 +1,40 @@
+// Chapter 10 (if statements)
+// var city=+prompt("What city do you live in")
+// var citys="Karachi"
+// if(citys==="Karachi"){
+//          alert("The city of lights")
+// }else{
+//     alert(`You are not a civilion`)
+// }
+// Question 2
+// var x=100;
+// var y=100;
+ 
+// if(x===y){
+// var z=+prompt("Enter value of z")
+// console.log("z",z)
+// }
+// Question 3
+// var userInput = +prompt(`What is your code `)
+// var codeStatement= "1010"
+// if(userInput=="1010"){
+//     alert("You live in Karachi")
+// }else{
+//     alert("Please enter the right city")
+// }
+// Question 4
+// let x = 1;
+// let targetValue = 5;
+// if (x === targetValue) {
+//   x = 10;
+//   console.log("x is now:", x);
+// } else {
+//   console.log("x is not equal to targetValue");
+// }
+//Chapter 11 (Comparison Operators)
+var variableOne = "1212"
+var variableTwo = "1313"
+var userInput = +prompt("dftydadfyuytadfyyuj")
+if(variableOne !== variableTwo){
+       alert("vale matched succesfully")
+}
